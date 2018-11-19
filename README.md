@@ -1,2 +1,2 @@
 # Velodyne
-Velodyne for dual mode and publish two message
+#Velodyne for dual mode and publish two message

@@ -1,0 +1,6 @@
+<launch>
+	<group ns="left_velodyne">
+    <include file="$(find velodyne_pointcloud)/launch/32e_points.launch">
+    </include>
+	</group>
+</launch>
