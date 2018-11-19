@@ -1,0 +1,2 @@
+velodyne/velodyne:velodyne/velodyne_driver:velodyne/velodyne_msgs:velodyne/velodyne_pointcloud
+-DCATKIN_DEVEL_PREFIX=/home/he/ROS_Code/dua_velodye/devel -DCMAKE_INSTALL_PREFIX=/home/he/ROS_Code/dua_velodye/install -G Unix Makefiles
