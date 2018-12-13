@@ -93,7 +93,7 @@ namespace velodyne_pointcloud
       data_->unpack(scanMsg->packets[i], *outMsg_he);
     }
 
-
+    ROS_ERROR("runtime");
 
 
 //      *outMsg_he+=*outMsg;
@@ -113,7 +113,7 @@ namespace velodyne_pointcloud
     // to capture a full scanner revolution.
     SensorModel model = data_->getSensorModel();
     ReturnMode  mode  = data_->getReturnMode(scanMsg->packets[0]);
-    if (model == Vlp16 && mode == Dual) {
+    if (0) {
       
       if (bufferedMsg_) {
         // Insert the buffered message into the current one.
